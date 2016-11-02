@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was able to pinpoint exactly where
+the differences in the two files were,
+and instantly. This job would take much longer to do manually, and the difference
+is so small it might not even be seen.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It is an easy way to cut out silly mistakes,
+which will make you less frustrated when coding,
+which could cause you to make even more mistakes.
+It also gives you the ability to experiment with a version
+without altering it forever.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros are that you know exaclty when you have finished a feature or when you've updated similar errors, whereas a computer might not.
+Cons are you could easily forget to commit over a long period of time and either lose all your work or have a commit too large to analyze
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because Git is focused towards being able to update all files at once because they are connected and a change in one could
+need a change in another. Google Docs assumes each file is seperate, and because the update is automatic it makes more sense to
+save each one individually
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git Log shows you every commit that has been made to the Repository. It also shows you their ID's which you put into
+git diff to compare changes, and it shows you what has been added and what has been taken away
+
+How might using version control make you more confident to make changes that could break something?
+
+Because you always have a backup version that works and that you can revert back to instantly
